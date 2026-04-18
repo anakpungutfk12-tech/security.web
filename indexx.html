@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mengenal Cyber Security</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #0a192f;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #0a192f;
+}
+
+/* Subjudul */
+h2 {
+    margin-top: 30px;
+    color: #0a192f;
+    border-left: 4px solid #007bff;
+    padding-left: 10px;
+}
+
+/* Paragraf */
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.7;
+}
+
+/* Code box */
+pre {
+    background: #1e1e1e;
+    color: #00ffcc;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+Cyber Security Article
+</div>
+
+<div class="container">
+
+<h1>MENGENAL CYBER SECURITY</h1>
+
+<h2>APA ITU CYBER SECURITY?</h2>
+<p>
+cyber security (keamanan siber) adalah bidang yang berfokus
+ pada melindungi komputer, jaringan, sistem, dan data dari 
+ serangan digital seperti hacker, malware, phishing, dan pencurian 
+ data, dengan tujuan menjaga keamanan informasi di dunia digital; 
+ hal ini dilakukan melalui berbagai cara seperti menggunakan password 
+ yang kuat, mengaktifkan verifikasi dua langkah (2FA), memakai antivirus,
+tidak sembarangan mengklik link mencurigakan, serta rutin memperbarui sistem,
+dan di dalamnya terdapat beberapa bidang seperti ethical hacking, network 
+security, digital forensics, dan application security yang semuanya sangat
+penting karena hampir semua aktivitas sekarang dilakukan secara online sehingga
+tanpa perlindungan yang baik, data pribadi, akun, dan transaksi bisa dengan mudah disalahgunakan.
+</p>
+
+<h2>FUNGSI CYBER SECURITY</h2>
+<p>
+Fungsi cyber security (keamanan siber) adalah untuk melindungi sistem komputer, jaringan, dan data dari berbagai ancaman digital seperti peretasan, virus, dan pencurian informasi, sehingga data pribadi maupun organisasi tetap aman, tidak disalahgunakan, dan tetap bisa diakses oleh pihak yang berhak; selain itu, cyber security juga berfungsi menjaga privasi pengguna, mencegah kerugian finansial, memastikan sistem berjalan dengan lancar tanpa gangguan, serta mendeteksi dan menangani serangan jika terjadi sehingga keamanan digital tetap terjaga.
+</p>
+
+<h2>MANFAAT CYBER SECURITY</h2>
+<p>
+Manfaat cyber security (keamanan siber) adalah menjaga data dan informasi agar tetap aman dari pencurian atau penyalahgunaan, melindungi privasi pengguna saat beraktivitas di internet, mencegah kerugian finansial akibat penipuan atau peretasan, menjaga kinerja sistem agar tetap stabil dan tidak terganggu oleh virus atau serangan, serta meningkatkan rasa aman dan kepercayaan saat menggunakan teknologi digital baik untuk belajar, bekerja, maupun bertransaksi online.
+</p>
+
+<h2>CONTOH CODINGAN</h2>
+
+<pre>
+import sqlite3
+
+conn = sqlite3.connect("database.db")
+cursor = conn.cursor()
+
+username = input("Username: ")
+password = input("Password: ")
+
+cursor.execute("SELECT * FROM users WHERE username=? AND password=?", (username, password))
+
+result = cursor.fetchone()
+
+if result:
+    print("Login berhasil")
+else:
+    print("Login gagal")
+</pre>
+
+</div>
+
+<div class="footer">
+© 2026 Cyber Security Learning
+</div>
+
+</body>
+</html>
